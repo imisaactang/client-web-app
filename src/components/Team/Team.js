@@ -9,8 +9,6 @@ import elaineImg from "./assets/elaineImg.jpeg";
 import hadiImg from "./assets/hadiImg.jpg";
 import isaacImg from "./assets/isaacImg.jpeg";
 import melissaImg from "./assets/melissaImg.jpeg";
-import mitchellImg from "./assets/mitchellImg.jpg";
-import abhiImg from "./assets/abhiImg.jpeg";
 import devImg from "./assets/devImg.jpeg";
 import { Col, Row } from "antd";
 import HelmetSeo from "../HelmetSeo";
@@ -30,17 +28,7 @@ const teamMembers = [
     link_type: "Website",
     link_url: "http://tomiwa.ca",
   },
-  {
-    first_name: "Mitchell",
-    last_name: "Li",
-    position: "Software Developer",
-    username: null,
-    img_url: mitchellImg,
-    description_1:
-      "Mitchell is an Honours Mathematics and Business student at the University of Waterloo",
-    link_type: "LinkedIn",
-    link_url: "https://www.linkedin.com/in/mitchell-tz-li/",
-  },
+
   {
     first_name: "Melissa",
     last_name: "Wen",
@@ -83,17 +71,7 @@ const teamMembers = [
     link_type: "LinkedIn",
     link_url: "https://www.linkedin.com/in/aaron-doerfler-3a2144197/",
   },
-  {
-    first_name: "Abhinit",
-    last_name: "Patil",
-    position: "Software Developer",
-    username: null,
-    img_url: abhiImg,
-    description_1:
-      "Abhinit is a grade 12 IB student at Turner Fenton Secondary School",
-    link_type: "LinkedIn",
-    link_url: "https://www.linkedin.com/in/abhinit-patil/",
-  },
+
   {
     first_name: "Elaine",
     last_name: "Yin",
@@ -138,6 +116,18 @@ const teamMembers = [
       "For fun, he enjoys working out and recording himself while doing it.",
     link_type: "LinkedIn",
     link_url: "https://www.linkedin.com/in/jacob-munene-4561a4153/",
+  },
+
+  {
+    first_name: "Grace",
+    last_name: "Tse",
+    position: "Marketing",
+    username: null,
+    img_url: "https://i.imgur.com/n2OqROn.jpg",
+    description_1:
+        "Grace is a marketing intern at Atila.",
+    link_type: "LinkedIn",
+    link_url: "https://www.linkedin.com/in/grace-tse-a17648174/?originalSubdomain=ca",
   },
 ];
 
